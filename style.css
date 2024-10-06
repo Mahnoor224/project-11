@@ -1,0 +1,42 @@
+body{
+    font-family:'Courier New', Courier, monospace;
+    background-color: black;  
+    color:rgb(255, 255, 255);  
+}
+h1{
+    color:blue;
+}
+a{
+    color:tomato;
+    text-decoration:none;
+}
+a:hover{
+    color:mediumspringgreen;
+}
+ul > li{
+    font-weight:bold; 
+}
+h1+p{
+    background-color:white;
+    padding:10px;
+    border-radius:7px;
+}
+ul li:hover{
+    color:cornflowerblue;
+}
+ul li:nth-child(5){
+    background-color:none;
+}
+p:not(:first-of-type){
+    text-decoration:underline;
+}
+ul li::before{
+    content:"🐺";
+}
+a::after{
+    content:"🖊️";
+}
+p::first-letter{
+    font-size:250%;
+    color:red;
+}
